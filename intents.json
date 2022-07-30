@@ -11,7 +11,7 @@
         },
         {
             "tag": "aboutme",
-            "patterns": ["who are you?", "what is your name?", "name?"],
+            "patterns": ["who are you?", "what is your name?", "name?","what are you?"],
             "responses": [
                 "I am agentX from Faculty of Engineering UOJ",
                 "I am agentX, a bot created by Faculty of Engineering UOJ",
@@ -39,10 +39,10 @@
         },
         {
             "tag": "location",
-            "patterns": ["Where is it located?", "Location of the faculty?"],
+            "patterns": ["Where is it located?", "Location of the faculty?","What is the the address of faculty?","Where are you from?"],
             "responses": [
-                "It is located in Ariviyal Nagar, Kilinochchi.",
-                "It's in Ariviyal Nagar, Kilinochchi."
+                "Our faculty is located in Ariviyal Nagar, Kilinochchi.",
+                "Our faculty is in Ariviyal Nagar, Kilinochchi."
             ]
         },
         {
@@ -68,6 +68,29 @@
                 "You can call us, +94-21-2060161 or mail us, deansoffice@eng.jfn.ac.lk"
             ]
         },
+        {
+            "tag": "batch",
+            "patterns": [
+                "How many batches in the faculty?",
+                "How many batches in FOE?",
+                "How many batches belong to your faculty?"
+            ],
+            "responses": [
+                "Finally 9th batch is arrived to faculty.",
+                "Now there are 5 batches in udergraduate program and 4 batches were graduated."
+            ]
+        },
+        {
+            "tag": "dean",
+            "patterns": [
+                "Who is the dean of the faculty?",
+                "Dean of FOE, UOJ?"
+            ],
+            "responses": [
+                "Dr. Kandasamy Pirapaharan is the cureent dean of FOE, UOJ.",
+                "Dr. Kandasamy Pirapaharan is the dean of faculty."
+            ]
+        },
 
         {
             "tag": "calendar",
@@ -79,6 +102,19 @@
             "responses": [
                 "You can get it from : https://www.eng.jfn.ac.lk/academic-calendar/",
                 "https://www.eng.jfn.ac.lk/academic-calendar/"
+            ]
+        },
+        {
+            "tag": "handbook",
+            "patterns": [
+                "can I get the student's handbook?",
+                "Is there are student handbook?",
+                "I need the student handbook?"
+            ],
+            "responses": [
+                "You can get it from : https://www.eng.jfn.ac.lk/handbook/",
+                "Follow this link please : https://www.eng.jfn.ac.lk/handbook/"
+          
             ]
         },
         {
