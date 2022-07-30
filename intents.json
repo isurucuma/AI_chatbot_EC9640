@@ -42,14 +42,10 @@
     {
       "tag": "departments",
       "patterns": [
-        "What are the departments you offer",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "What are the departmets you offer?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "Our faculty offer 4 departments as, Department of Computer, Department of Electrical & Electronic, Department of Inter Disciplinary Studies, Department of Civil Engineering"
       ]
     },
     {
@@ -67,7 +63,8 @@
     {
       "tag": "open_time",
       "patterns": [
-        "At what time I can contact officers?"
+        "At what time I can contact officers?",
+        "What is office open time?"
       ],
       "responses": [
         "Our office opene from 8am to 4pm on weekdays",
