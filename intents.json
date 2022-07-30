@@ -10,7 +10,6 @@
       ],
       "responses": [
         "Hey :-)",
-        "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
       ]
@@ -21,7 +20,7 @@
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
-        "Bye! Come back again soon."
+        "Bye!"
       ]
     },
     {
@@ -32,18 +31,18 @@
     {
       "tag": "location",
       "patterns": [
-        "Where is located?",
+        "Where is it located?",
         "Location of the faculty?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "It is located in Ariviyal Nagar, Kilinochchi.",
+        "It's in Ariviyal Nagar, Kilinochchi."
       ]
     },
     {
-      "tag": "payments",
+      "tag": "departments",
       "patterns": [
-        "Do you take credit cards?",
+        "What are the departments you offer",
         "Do you accept Mastercard?",
         "Can I pay with Paypal?",
         "Are you cash only?"
@@ -54,27 +53,25 @@
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "contact",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "How can I contact you?",
+        "Is there any method to contact you?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "You can call us, +94-21-2060161",
+        "You can mail us, deansoffice@eng.jfn.ac.lk",
+        "You can call us, +94-21-2060161 or mail us, deansoffice@eng.jfn.ac.lk"
       ]
     },
     {
-      "tag": "funny",
+      "tag": "open_time",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "At what time I can contact officers?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Our office opene from 8am to 4pm on weekdays",
+        "We are here fro 8am to 4pm on weekdays"
       ]
     }
   ]
