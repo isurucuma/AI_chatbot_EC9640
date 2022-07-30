@@ -42,7 +42,8 @@
     {
       "tag": "departments",
       "patterns": [
-        "What are the departmets you offer?"
+        "What are the departmets you offer?",
+        "What departments are there"
       ],
       "responses": [
         "Our faculty offer 4 departments as, Department of Computer, Department of Electrical & Electronic, Department of Inter Disciplinary Studies, Department of Civil Engineering"
@@ -60,11 +61,25 @@
         "You can call us, +94-21-2060161 or mail us, deansoffice@eng.jfn.ac.lk"
       ]
     },
+
+    {
+      "tag": "calendar",
+      "patterns": [
+        "can I get the academic calendar?",
+        "I want academic calendar?",
+        "What is academic work schedule?"
+      ],
+      "responses": [
+        "You can get it from : https://www.eng.jfn.ac.lk/academic-calendar/",
+        "https://www.eng.jfn.ac.lk/academic-calendar/"
+      ]
+    },
     {
       "tag": "open_time",
       "patterns": [
         "At what time I can contact officers?",
-        "What is office open time?"
+        "What is office open time?",
+        "working hours?"
       ],
       "responses": [
         "Our office opene from 8am to 4pm on weekdays",
