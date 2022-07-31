@@ -1,84 +1,142 @@
 {
-  "intents": [
-    {
-      "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
-      ],
-      "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
-      ]
-    },
-    {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
-      ]
-    },
-    {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
-      ]
-    }
-  ]
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hey", "Is anyone there?", "Hello"],
+            "responses": [
+                "Hey :-)",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "aboutme",
+            "patterns": [
+                "who are you?",
+                "what is your name?",
+                "name?",
+                "what are you?"
+            ],
+            "responses": [
+                "I am agentX from Faculty of Engineering UOJ",
+                "I am agentX, a bot created by Faculty of Engineering UOJ",
+                "I am agentX"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!"
+            ],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "Where is it located?",
+                "Location of the faculty?",
+                "What is the the address of faculty?",
+                "Where are you from?"
+            ],
+            "responses": [
+                "Our faculty is located in Ariviyal Nagar, Kilinochchi.",
+                "Our faculty is in Ariviyal Nagar, Kilinochchi."
+            ]
+        },
+        {
+            "tag": "departments",
+            "patterns": [
+                "What are the departmets you offer?",
+                "What departments are there",
+                "How many departments are there"
+            ],
+            "responses": [
+                "Our faculty offers 4 departments as, \n\tDepartment of Computer, \n\tDepartment of Electrical & Electronic, \n\tDepartment of Inter Disciplinary Studies, \n\tDepartment of Civil"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "How can I contact you?",
+                "Is there any method to contact you?"
+            ],
+            "responses": [
+                "You can call us, +94-21-2060161",
+                "You can mail us, deansoffice@eng.jfn.ac.lk",
+                "You can call us, +94-21-2060161 or mail us, deansoffice@eng.jfn.ac.lk"
+            ]
+        },
+        {
+            "tag": "batch",
+            "patterns": [
+                "How many batches in the faculty?",
+                "How many batches in FOE?",
+                "How many batches belong to your faculty?"
+            ],
+            "responses": [
+                "Finally 9th batch is arrived to faculty.",
+                "Now there are 5 batches in udergraduate program and 4 batches were graduated."
+            ]
+        },
+        {
+            "tag": "dean",
+            "patterns": [
+                "Who is the dean of the faculty?",
+                "Dean of FOE, UOJ?"
+            ],
+            "responses": [
+                "Dr. Kandasamy Pirapaharan is the cureent dean of FOE, UOJ.",
+                "Dr. Kandasamy Pirapaharan is the dean of faculty."
+            ]
+        },
+
+        {
+            "tag": "calendar",
+            "patterns": [
+                "can I get the academic calendar?",
+                "I want academic calendar?",
+                "What is academic work schedule?"
+            ],
+            "responses": [
+                "You can get it from : https://www.eng.jfn.ac.lk/academic-calendar/",
+                "https://www.eng.jfn.ac.lk/academic-calendar/"
+            ]
+        },
+        {
+            "tag": "handbook",
+            "patterns": [
+                "can I get the student's handbook?",
+                "Is there are student handbook?",
+                "I need the student handbook?"
+            ],
+            "responses": [
+                "You can get it from : https://www.eng.jfn.ac.lk/handbook/",
+                "Follow this link please : https://www.eng.jfn.ac.lk/handbook/"
+            ]
+        },
+        {
+            "tag": "open_time",
+            "patterns": [
+                "At what time I can contact officers?",
+                "What is office open time?",
+                "working hours?"
+            ],
+            "responses": [
+                "Our office open from 8am to 4pm on weekdays",
+                "We are here fro 8am to 4pm on weekdays"
+            ]
+        }
+    ]
 }
