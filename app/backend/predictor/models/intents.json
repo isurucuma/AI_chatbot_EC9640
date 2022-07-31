@@ -2,7 +2,14 @@
     "intents": [
         {
             "tag": "greeting",
-            "patterns": ["Hi", "Hey", "Is anyone there?", "Hello"],
+            "patterns": ["Hi", "Hey", "Is anyone there?", "Hello",
+            "Good morning",
+            "Goodmorning",
+            "Goodaftternoon",
+            "Good afternoon",
+            "Goodevening",
+            "Good evening"
+        ],
             "responses": [
                 "Hey :-)",
                 "Hi there, what can I do for you?",
@@ -25,7 +32,7 @@
         },
         {
             "tag": "goodbye",
-            "patterns": ["Bye", "See you later", "Goodbye"],
+            "patterns": ["Bye", "See you later", "Goodbye", "good night", "goodnight"],
             "responses": [
                 "See you later, thanks for visiting",
                 "Have a nice day",
@@ -47,7 +54,7 @@
             "patterns": [
                 "Where is it located?",
                 "Location of the faculty?",
-                "What is the the address of faculty?",
+                "What is the address of faculty?",
                 "Where are you from?"
             ],
             "responses": [
@@ -58,7 +65,7 @@
         {
             "tag": "departments",
             "patterns": [
-                "What are the departmets you offer?",
+                "What are the departments you offer?",
                 "What departments are there",
                 "How many departments are there"
             ],
@@ -70,7 +77,9 @@
             "tag": "contact",
             "patterns": [
                 "How can I contact you?",
-                "Is there any method to contact you?"
+                "Is there any method to contact you?",
+                "How to contact",
+                "I need phone number"
             ],
             "responses": [
                 "You can call us, +94-21-2060161",
@@ -79,11 +88,36 @@
             ]
         },
         {
+            "tag": "phone",
+            "patterns": [
+                "I need phone number",
+                "I need to call an officer"
+            ],
+            "responses": [
+                "You can call us, +94-21-2060161",
+                "+94-21-2060161 is our office number"
+            ]
+        },
+        {
+            "tag": "email",
+            "patterns": [
+                "I need email address",
+                "can I have a email address to contact you"
+            ],
+            "responses": [
+                "This is our office email address, deansoffice@eng.jfn.ac.lk",
+                "deansoffice@eng.jfn.ac.lk is our office email address",
+                "You can mail us by deansoffice@eng.jfn.ac.lk"
+            ]
+        },
+        {
             "tag": "batch",
             "patterns": [
                 "How many batches in the faculty?",
                 "How many batches in FOE?",
-                "How many batches belong to your faculty?"
+                "How many batches belong to your faculty?",
+                "How many batches are there",
+                "What is the numbe of batches"
             ],
             "responses": [
                 "Finally 9th batch is arrived to faculty.",
@@ -103,17 +137,42 @@
                 "Dr. Kandasamy Pirapaharan is the dean of faculty."
             ]
         },
+        {
+            "tag": "system-eng",
+            "patterns": [
+                "Who is the system engineer?",
+                "I need to contact system engineer?"
+            ],
+            "responses": [
+                "Ms. S. Piriya is the system engineer of faculty. You can contact her, piriya@eng.jfn.ac.lk"
+            ]
+        },
 
         {
             "tag": "calendar",
             "patterns": [
                 "can I get the academic calendar?",
                 "I want academic calendar?",
-                "What is academic work schedule?"
+                "What is academic work schedule?",
+                "What is the academic week is this?",
+                "Scheduling details"
+
             ],
             "responses": [
-                "You can get it from : https://www.eng.jfn.ac.lk/academic-calendar/",
-                "https://www.eng.jfn.ac.lk/academic-calendar/"
+                "Check : https://www.eng.jfn.ac.lk/academic-calendar/",
+                "Follow this link and check, https://www.eng.jfn.ac.lk/academic-calendar/"
+            ]
+        },
+        {
+            "tag": "curriculum",
+            "patterns": [
+                "I need the curriculum",
+                "Can I get the curriculum?",
+                "How can I get the curriculum?"
+            ],
+            "responses": [
+                "You are already in faculty site so follow these instructions, select 'Students', select 'Undergraduate Curriculum', select your Department/Preference and select your batch range.",
+                "You are already in faculty site so follow these instructions, Students -> Undergraduate Curriculum -> Department/Preference -> your batch range."
             ]
         },
         {
@@ -122,12 +181,13 @@
                 "can I get the student's handbook?",
                 "Is there are student handbook?",
                 "I need the student handbook?",
-                "How to get the student hand bbok",
+                "How to get the student hand book",
                 "How can I get the hand book"
             ],
             "responses": [
                 "You can get it from : https://www.eng.jfn.ac.lk/handbook/",
-                "Follow this link please : https://www.eng.jfn.ac.lk/handbook/"
+                "Follow this link please : https://www.eng.jfn.ac.lk/handbook/",
+                "You are already in faculty site so follow these instructions, Students -> Handbook"
             ]
         },
         {
@@ -139,7 +199,38 @@
             ],
             "responses": [
                 "Our office open from 8am to 4pm on weekdays",
-                "We are here fro 8am to 4pm on weekdays"
+                "We are here from 8am to 4pm on weekdays"
+            ]
+        },
+        {
+            "tag": "creters",
+            "patterns": [
+                "Who are the creaters?",
+                "Who created you?",
+                "Who make you?",
+                "Who is your father",
+                "Who is your mother"
+
+            ],
+            "responses": [
+                "Isuru, Miyushan, Nadeesha and Chandula created me.",
+                "Isuru, Miyushan, Nadeesha and Chandula made me."
+                
+            ]
+        },
+        {
+            "tag": "what-can-do",
+            "patterns": [
+                "What you can do?",
+                "How can you help me?",
+                "What is your work here"
+
+            ],
+            "responses": [
+                "I can help you with general things in our faculty",
+                "Tell me why are you here, I can help you to with that quickly"
+
+                
             ]
         }
     ]
