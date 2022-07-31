@@ -55,7 +55,8 @@
                 "Where is it located?",
                 "Location of the faculty?",
                 "What is the address of faculty?",
-                "Where are you from?"
+                "Where are you from?",
+                "I want to get the address"
             ],
             "responses": [
                 "Our faculty is located in Ariviyal Nagar, Kilinochchi.",
@@ -78,8 +79,7 @@
             "patterns": [
                 "How can I contact you?",
                 "Is there any method to contact you?",
-                "How to contact",
-                "I need phone number"
+                "How to contact"
             ],
             "responses": [
                 "You can call us, +94-21-2060161",
@@ -91,7 +91,10 @@
             "tag": "phone",
             "patterns": [
                 "I need phone number",
-                "I need to call an officer"
+                "I need to call an officer",
+                "Can I have a phone number",
+                "Can I get your phone number",
+                "Phone number"
             ],
             "responses": [
                 "You can call us, +94-21-2060161",
@@ -102,7 +105,11 @@
             "tag": "email",
             "patterns": [
                 "I need email address",
-                "can I have a email address to contact you"
+                "can I have a email address to contact you",
+                "Can I get faculty email",
+                "Can I get faculty email address",
+                "Can I get faculty mail address"
+
             ],
             "responses": [
                 "This is our office email address, deansoffice@eng.jfn.ac.lk",
@@ -130,7 +137,8 @@
                 "Who is the dean of the faculty?",
                 "Dean of FOE, UOJ?",
                 "who is the dean",
-                "head of faculty"
+                "head of faculty",
+                "who is head"
             ],
             "responses": [
                 "Dr. Kandasamy Pirapaharan is the current dean of FOE, UOJ.",
@@ -156,7 +164,8 @@
                 "What is academic work schedule?",
                 "What is the academic week is this?",
                 "Scheduling details",
-                "What academic week this?"
+                "What academic week this?",
+                "From where can I get academic calendar"
 
             ],
             "responses": [
@@ -169,7 +178,13 @@
             "patterns": [
                 "I need the curriculum",
                 "Can I get the curriculum?",
-                "How can I get the curriculum?"
+                "How can I get the curriculum?",
+                "Computer engineering curriculum?",
+                "Electical engineering curriculum?",
+                "civil engineering curriculum?",
+                "mechanical engineering curriculum?",
+                "genreral program curriculum?",
+                "From where can I get curriculum"
             ],
             "responses": [
                 "You are already in faculty site so follow these instructions, select 'Students', select 'Undergraduate Curriculum', select your Department/Preference and select your batch range.",
@@ -183,7 +198,8 @@
                 "Is there are student handbook?",
                 "I need the student handbook?",
                 "How to get the student hand book",
-                "How can I get the hand book"
+                "How can I get the hand book",
+                "From where can I get handbook"
             ],
             "responses": [
                 "You can get it from : https://www.eng.jfn.ac.lk/handbook/",
@@ -210,10 +226,12 @@
                 "Who is the creator?",
                 "Who created you?",
                 "Who make you?",
+                "Who made you?",
                 "Who is your father",
                 "Who is your mother",
                 "Who create?",
-                "Who creates?"
+                "Who creates?",
+                "who develop you"
 
             ],
             "responses": [
@@ -234,7 +252,7 @@
             ],
             "responses": [
                 "I can help you with general things in our faculty",
-                "Tell me why are you here, I can help you to with that quickly"
+                "Tell me why are you here, I can help you with that quickly"
 
                 
             ]
