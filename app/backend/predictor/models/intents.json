@@ -121,7 +121,9 @@
             "patterns": [
                 "can I get the student's handbook?",
                 "Is there are student handbook?",
-                "I need the student handbook?"
+                "I need the student handbook?",
+                "How to get the student hand bbok",
+                "How can I get the hand book"
             ],
             "responses": [
                 "You can get it from : https://www.eng.jfn.ac.lk/handbook/",
