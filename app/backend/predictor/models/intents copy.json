@@ -2,7 +2,7 @@
     "intents": [
         {
             "tag": "greeting",
-            "patterns": ["Hi", "Hey", "Is anyone there?", "Hello",
+            "patterns": ["Hi", "Hey", "anyone there?", "Hello",
             "Good morning",
             "Goodmorning",
             "Goodaftternoon",
@@ -19,10 +19,10 @@
         {
             "tag": "aboutme",
             "patterns": [
-                "who are you?",
-                "what is your name?",
+                "who you?",
+                "what your name?",
                 "name?",
-                "what are you?"
+                "what you?"
             ],
             "responses": [
                 "I am agentX from Faculty of Engineering UOJ",
@@ -52,10 +52,13 @@
         {
             "tag": "location",
             "patterns": [
-                "Where is it located?",
-                "Location of the faculty?",
-                "What is the address of faculty?",
-                "Where are you from?"
+                "Where it located?",
+                "Where faculty located?",
+                "Where it locate?",
+                "Where faculty locate?",
+                "Location of faculty?",
+                "What address of faculty?",
+                "Where you from?"
             ],
             "responses": [
                 "Our faculty is located in Ariviyal Nagar, Kilinochchi.",
@@ -65,9 +68,11 @@
         {
             "tag": "departments",
             "patterns": [
-                "What are the departments you offer?",
-                "What departments are there",
-                "How many departments are there"
+                "What departments you offer?",
+                "What departments there",
+                "What departments in faculty",
+                "How many departments there",
+                "How many departments in faculty"
             ],
             "responses": [
                 "Our faculty offers 4 departments as, \n\tDepartment of Computer, \n\tDepartment of Electrical & Electronic, \n\tDepartment of Inter Disciplinary Studies, \n\tDepartment of Civil"
@@ -76,10 +81,9 @@
         {
             "tag": "contact",
             "patterns": [
-                "How can I contact you?",
-                "Is there any method to contact you?",
-                "How to contact",
-                "I need phone number"
+                "How I contact you?",
+                "method contact you?",
+                "How contact"
             ],
             "responses": [
                 "You can call us, +94-21-2060161",
@@ -91,7 +95,7 @@
             "tag": "phone",
             "patterns": [
                 "I need phone number",
-                "I need to call an officer"
+                "I need call officer"
             ],
             "responses": [
                 "You can call us, +94-21-2060161",
@@ -102,7 +106,7 @@
             "tag": "email",
             "patterns": [
                 "I need email address",
-                "can I have a email address to contact you"
+                "can I have email address contact you"
             ],
             "responses": [
                 "This is our office email address, deansoffice@eng.jfn.ac.lk",
@@ -113,11 +117,11 @@
         {
             "tag": "batch",
             "patterns": [
-                "How many batches in the faculty?",
-                "How many batches in FOE?",
-                "How many batches belong to your faculty?",
-                "How many batches are there",
-                "What is the number of batches"
+                "How many batches faculty?",
+                "How many batches FOE?",
+                "How many batches belong your faculty?",
+                "How many batches there",
+                "number of batches"
             ],
             "responses": [
                 "Finally 9th batch is arrived to faculty.",
@@ -127,9 +131,9 @@
         {
             "tag": "dean",
             "patterns": [
-                "Who is the dean of the faculty?",
+                "dean of the faculty?",
                 "Dean of FOE, UOJ?",
-                "who is the dean",
+                "who dean",
                 "head of faculty"
             ],
             "responses": [
@@ -140,8 +144,8 @@
         {
             "tag": "system-eng",
             "patterns": [
-                "Who is the system engineer?",
-                "I need to contact system engineer?"
+                "Who system engineer?",
+                "I need contact system engineer?"
             ],
             "responses": [
                 "Ms. S. Piriya is the system engineer of faculty. You can contact her, piriya@eng.jfn.ac.lk"
@@ -151,12 +155,11 @@
         {
             "tag": "calendar",
             "patterns": [
-                "can I get the academic calendar?",
+                "can I get academic calendar?",
                 "I want academic calendar?",
-                "What is academic work schedule?",
-                "What is the academic week is this?",
-                "Scheduling details",
-                "What academic week this?"
+                "What academic work schedule?",
+                "What academic week this?",
+                "Scheduling details"
 
             ],
             "responses": [
@@ -167,9 +170,9 @@
         {
             "tag": "curriculum",
             "patterns": [
-                "I need the curriculum",
-                "Can I get the curriculum?",
-                "How can I get the curriculum?"
+                "I need curriculum",
+                "Can I get curriculum?",
+                "How get curriculum?"
             ],
             "responses": [
                 "You are already in faculty site so follow these instructions, select 'Students', select 'Undergraduate Curriculum', select your Department/Preference and select your batch range.",
@@ -179,11 +182,12 @@
         {
             "tag": "handbook",
             "patterns": [
-                "can I get the student's handbook?",
-                "Is there are student handbook?",
-                "I need the student handbook?",
-                "How to get the student hand book",
-                "How can I get the hand book"
+                "can I get student's handbook?",
+                "Is there student handbook?",
+                "I need student handbook?",
+                "How get student hand book",
+                "How get hand book",
+                "How get handbook"
             ],
             "responses": [
                 "You can get it from : https://www.eng.jfn.ac.lk/handbook/",
@@ -194,8 +198,8 @@
         {
             "tag": "open_time",
             "patterns": [
-                "At what time I can contact officers?",
-                "What is office open time?",
+                "what time can contact officers?",
+                "What office open time?",
                 "working hours?"
             ],
             "responses": [
@@ -206,14 +210,14 @@
         {
             "tag": "creator",
             "patterns": [
-                "Who are the creators?",
-                "Who is the creator?",
-                "Who created you?",
-                "Who make you?",
-                "Who is your father",
-                "Who is your mother",
+                "Who creators?",
+                "Who creator?",
+                "Who created?",
                 "Who create?",
-                "Who creates?"
+                "Who creates?",
+                "Who make?",
+                "Who dather",
+                "Who mother"
 
             ],
             "responses": [
@@ -225,11 +229,11 @@
         {
             "tag": "what-can-do",
             "patterns": [
-                "What you can do?",
-                "How can you help me?",
-                "What is your work here",
+                "What can do?",
                 "What you do?",
-                "What works you do"
+                "How you help me?",
+                "What work here",
+                "What works do"
 
             ],
             "responses": [
