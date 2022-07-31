@@ -94,7 +94,9 @@
             "tag": "dean",
             "patterns": [
                 "Who is the dean of the faculty?",
-                "Dean of FOE, UOJ?"
+                "Dean of FOE, UOJ?",
+                "who is the dean",
+                "head of faculty"
             ],
             "responses": [
                 "Dr. Kandasamy Pirapaharan is the cureent dean of FOE, UOJ.",
