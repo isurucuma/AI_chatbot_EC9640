@@ -1,3 +1,16 @@
+body {
+    background-image: url(../public/faclty_site.jpg);
+    background-size: cover;
+}
+
+#root {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: right;
+    height: 97vh;
+}
+
 .chatbot {
     font-family: monospace;
     border-radius: 10px;
