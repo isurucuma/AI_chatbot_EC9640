@@ -56,7 +56,9 @@
                 "Location of the faculty?",
                 "What is the address of faculty?",
                 "Where are you from?",
-                "I want to get the address"
+                "I want to get the address",
+                "I need the location on map",
+                "map of the faculty"
             ],
             "responses": [
                 "Our faculty is located in Ariviyal Nagar, Kilinochchi.",
@@ -68,10 +70,12 @@
             "patterns": [
                 "What are the departments you offer?",
                 "What departments are there",
-                "How many departments are there"
+                "How many departments are there",
+                "can you tell me the number of departments in the faculty",
+                "can you tell me offering departments of the faculty"
             ],
             "responses": [
-                "Our faculty offers 4 departments as, \n\tDepartment of Computer, \n\tDepartment of Electrical & Electronic, \n\tDepartment of Inter Disciplinary Studies, \n\tDepartment of Civil"
+                "Our faculty offers 4 departments as, Department of Computer, Department of Electrical & Electronic, Department of Inter Disciplinary Studies, Department of Civil"
             ]
         },
         {
@@ -79,7 +83,9 @@
             "patterns": [
                 "How can I contact you?",
                 "Is there any method to contact you?",
-                "How to contact"
+                "How to contact",
+                "can I have a contact method",
+                "can I you tell me that how can i contact you?"
             ],
             "responses": [
                 "You can call us, +94-21-2060161",
@@ -124,7 +130,9 @@
                 "How many batches in FOE?",
                 "How many batches belong to your faculty?",
                 "How many batches are there",
-                "What is the number of batches"
+                "What is the number of batches",
+                "can you tell me the number of batches in the faculty",
+                "can i know the number of batches in faculty"
             ],
             "responses": [
                 "Finally 9th batch is arrived to faculty.",
@@ -138,7 +146,12 @@
                 "Dean of FOE, UOJ?",
                 "who is the dean",
                 "head of faculty",
-                "who is head"
+                "who is head",
+                "can i know the name of the dean",
+                "can you tell me the name of the dean",
+                "can you tell me the name of the head",
+                "can i know the name of the dean",
+                "can i know the name of the head"
             ],
             "responses": [
                 "Dr. Kandasamy Pirapaharan is the current dean of FOE, UOJ.",
@@ -149,7 +162,10 @@
             "tag": "system-eng",
             "patterns": [
                 "Who is the system engineer?",
-                "I need to contact system engineer?"
+                "I need to contact system engineer?",
+                "can i get the contact system engineer?",
+                "can i know the contact system engineer?",
+                "can you tell me how tp contact system engineer?"
             ],
             "responses": [
                 "Ms. S. Piriya is the system engineer of faculty. You can contact her, piriya@eng.jfn.ac.lk"
@@ -160,6 +176,7 @@
             "tag": "calendar",
             "patterns": [
                 "can I get the academic calendar?",
+                "can you give me the academic calendar?",
                 "I want academic calendar?",
                 "What is academic work schedule?",
                 "What is the academic week is this?",
@@ -178,9 +195,11 @@
             "patterns": [
                 "I need the curriculum",
                 "Can I get the curriculum?",
+                "Can you give me the curriculum?",
+                "Can you give me the curriculum plan?",
                 "How can I get the curriculum?",
                 "Computer engineering curriculum?",
-                "Electical engineering curriculum?",
+                "Electrical engineering curriculum?",
                 "civil engineering curriculum?",
                 "mechanical engineering curriculum?",
                 "genreral program curriculum?",
@@ -195,6 +214,9 @@
             "tag": "handbook",
             "patterns": [
                 "can I get the student's handbook?",
+                "can I get the handbook?",
+                "can you give me the student's handbook?",
+                "can you give me the handbook?",
                 "Is there are student handbook?",
                 "I need the student handbook?",
                 "How to get the student hand book",
@@ -212,7 +234,11 @@
             "patterns": [
                 "At what time I can contact officers?",
                 "What is office open time?",
-                "working hours?"
+                "working hours?",
+                "can i know the office working time",
+                "can you tell me the office working time",
+                "I want to meet you when should i come",
+                "I want to come to office at what time it is possible"
             ],
             "responses": [
                 "Our office open from 8am to 4pm on weekdays",
@@ -231,11 +257,18 @@
                 "Who is your mother",
                 "Who create?",
                 "Who creates?",
-                "who develop you"
+                "who develop you",
+                "who build you",
+                "who found you",
+                "can i know about your creator",
+                "can i know your creator",
+                "can you tell me about your founder"
 
             ],
             "responses": [
                 "Isuru, Miyushan, Nadeesha and Chandula created me.",
+                "Isuru, Miyushan, Nadeesha and Chandula develped me.",
+                "Isuru, Miyushan, Nadeesha and Chandula adopted me.",
                 "Isuru, Miyushan, Nadeesha and Chandula made me."
                 
             ]
@@ -247,7 +280,8 @@
                 "How can you help me?",
                 "What is your work here",
                 "What you do?",
-                "What works you do"
+                "What works you do",
+                "cam you do anything"
 
             ],
             "responses": [
@@ -272,12 +306,13 @@
             "tag": "iesl",
             "patterns": [
                 "Is your faculty recognized by IESL?",
-                "Do you have IESL membership?"
+                "Do you have IESL membership?",
+                "can i know about iesl stratus"
                 
             ],
             "responses": [
-                "Yes, for all departments It recognized",
-                "Yes, for all 4 departments"
+                "Our all departments recognized by IESL",
+                "We have recognized by IESL"
    
             ]
         },
@@ -286,11 +321,36 @@
             "patterns": [
                 "Do you have hostel facilities?",
                 "Do you offer hostel facilities?",
-                "Is there hostel facilities?"
+                "Is there hostel facilities?",
+                "do you provide hostel facilities",
+                "How you offer hostel facilities",
+                "Can i know the about hostel",
+                "Can you tell me about hostel"
                 
             ],
             "responses": [
-                "We offer hostel facilities for both male and femeale students."
+                "We offer hostel facilities for both male and female students for first and last year only",
+                "We offer hostel facilities for both male and female students for first and last year only"
+   
+            ]
+        },
+        {
+            "tag": "lecturers",
+            "patterns": [
+                "How many lecturers are there?",
+                "Number of lecturers in faculty",
+                "lecturers in elecrical department",
+                "lecturers in civil department",
+                "lecturers in computer department",
+                "lecturers in interdiciplinary studies",
+                "lecturers in mechanical department",
+                "can i know the number of lecturers in the faculty",
+                "can you tell me the number of lecturers in the faculty"
+                
+            ],
+            "responses": [
+                "There are nearly 40 lecturers in our faculty",
+                "There are nearly 40 lecturers for all 4 departments"
    
             ]
         }
