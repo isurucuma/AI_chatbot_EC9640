@@ -2,14 +2,18 @@
     "intents": [
         {
             "tag": "greeting",
-            "patterns": ["Hi", "Hey", "Is anyone there?", "Hello",
-            "Good morning",
-            "Goodmorning",
-            "Goodaftternoon",
-            "Good afternoon",
-            "Goodevening",
-            "Good evening"
-        ],
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello",
+                "Good morning",
+                "Goodmorning",
+                "Goodaftternoon",
+                "Good afternoon",
+                "Goodevening",
+                "Good evening"
+            ],
             "responses": [
                 "Hey :-)",
                 "Hi there, what can I do for you?",
@@ -32,7 +36,13 @@
         },
         {
             "tag": "goodbye",
-            "patterns": ["Bye", "See you later", "Goodbye", "good night", "goodnight"],
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "good night",
+                "goodnight"
+            ],
             "responses": [
                 "See you later, thanks for visiting",
                 "Have a nice day",
@@ -115,7 +125,6 @@
                 "Can I get faculty email",
                 "Can I get faculty email address",
                 "Can I get faculty mail address"
-
             ],
             "responses": [
                 "This is our office email address, deansoffice@eng.jfn.ac.lk",
@@ -183,7 +192,6 @@
                 "Scheduling details",
                 "What academic week this?",
                 "From where can I get academic calendar"
-
             ],
             "responses": [
                 "Check : https://www.eng.jfn.ac.lk/academic-calendar/",
@@ -203,7 +211,8 @@
                 "civil engineering curriculum?",
                 "mechanical engineering curriculum?",
                 "genreral program curriculum?",
-                "From where can I get curriculum"
+                "From where can I get curriculum",
+                "I want to access the curriculum"
             ],
             "responses": [
                 "You are already in faculty site so follow these instructions, select 'Students', select 'Undergraduate Curriculum', select your Department/Preference and select your batch range.",
@@ -263,14 +272,12 @@
                 "can i know about your creator",
                 "can i know your creator",
                 "can you tell me about your founder"
-
             ],
             "responses": [
                 "Isuru, Miyushan, Nadeesha and Chandula created me.",
                 "Isuru, Miyushan, Nadeesha and Chandula develped me.",
                 "Isuru, Miyushan, Nadeesha and Chandula adopted me.",
                 "Isuru, Miyushan, Nadeesha and Chandula made me."
-                
             ]
         },
         {
@@ -282,38 +289,28 @@
                 "What you do?",
                 "What works you do",
                 "cam you do anything"
-
             ],
             "responses": [
                 "I can help you with general things in our faculty",
                 "Tell me why are you here, I can help you with that quickly"
-   
             ]
         },
         {
             "tag": "old",
-            "patterns": [
-                "How old are you?",
-                "What is your age?"
-            ],
-            "responses": [
-                "3 weeks old",
-                "21 days I think.."
-   
-            ]
+            "patterns": ["How old are you?", "What is your age?"],
+            "responses": ["3 weeks old", "21 days I think.."]
         },
         {
             "tag": "iesl",
             "patterns": [
                 "Is your faculty recognized by IESL?",
                 "Do you have IESL membership?",
-                "can i know about iesl stratus"
-                
+                "can i know about iesl status",
+                "do faculty has iesl recognition"
             ],
             "responses": [
                 "Our all departments recognized by IESL",
                 "We have recognized by IESL"
-   
             ]
         },
         {
@@ -326,12 +323,9 @@
                 "How you offer hostel facilities",
                 "Can i know the about hostel",
                 "Can you tell me about hostel"
-                
             ],
             "responses": [
-                "We offer hostel facilities for both male and female students for first and last year only",
                 "We offer hostel facilities for both male and female students for first and last year only"
-   
             ]
         },
         {
@@ -346,12 +340,10 @@
                 "lecturers in mechanical department",
                 "can i know the number of lecturers in the faculty",
                 "can you tell me the number of lecturers in the faculty"
-                
             ],
             "responses": [
                 "There are nearly 40 lecturers in our faculty",
                 "There are nearly 40 lecturers for all 4 departments"
-   
             ]
         }
     ]
