@@ -5,7 +5,7 @@
 
 ## Demo image 👀️
 
-![](assets/20221031_114409_chatbot_photo.png)
+![]([assets/20221031_114409_chatbot_photo.png](https://github.com/IsuruAkalanka/AI_chatbot_EC9640/blob/main/readme-files/chatbot%20photo.png))
 
 
 #### Collaborators:
